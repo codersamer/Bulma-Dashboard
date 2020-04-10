@@ -1,0 +1,29 @@
+{
+  "name": "bulma-dashboard",
+  "version": "1.0.0",
+  "description": "Bulma Based Dashboard Template to Spread love of Bulma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamZCoder/Bulma-Dashboard.git"
+  },
+  "keywords": [
+    "bulma",
+    "html",
+    "css",
+    "sass",
+    "template"
+  ],
+  "author": "SamZCoder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamZCoder/Bulma-Dashboard/issues"
+  },
+  "homepage": "https://github.com/SamZCoder/Bulma-Dashboard#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
