@@ -1,5 +1,5 @@
 <div class="column is-one-fifth has-background-white" id="sidebar">
-    <h1 class="title is-6 is-marginless has-background-dark has-text-white">
+    <h1 class="title is-6 is-marginless has-background-light has-text-dark">
         
         Bulma Dashbard
     </h1>
@@ -39,16 +39,23 @@
         <ul class="menu-list">
             <li><a href="#">
                 <span class="icon"><i class="fas fa-file-alt"></i></span>
-                Pages
+                Pages <span class="tag is-info is-pulled-right">112</span>
             </a></li>
             <li><a href="#">
                 <span class="icon"><i class="fas fa-paste"></i></span>
                 Posts
             </a></li>
-            <li><a href="#">
-                <span class="icon"><i class="fas fa-folder-plus"></i></span>
-                Categories
-            </a></li>
+            <li class="has-dropdown">
+                <a href="#">
+                    <span class="icon"><i class="fas fa-folder-plus"></i></span>
+                    Categories
+                </a>
+                    <ul>
+                        <li><a href="#">Create new</a></li>
+                        <li><a href="#">Show All</a></li>
+                    </ul>
+
+            </li>
         </ul>
     </aside>
 </div>

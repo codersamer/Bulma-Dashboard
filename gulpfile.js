@@ -1,12 +1,12 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const htmlInclude = require('gulp-file-include');
+const terser = require('gulp-terser');
 
 gulp.task('build_js', function(){
     return gulp.src('./src/javascript/*.js')
-    .pipe(uglify())
+    .pipe(terser())
     .pipe(rename({suffix : '.min'}))
     .pipe(gulp.dest('./build/javascript', {overwrite : true}));
 });
@@ -15,7 +15,6 @@ gulp.task('build_sass', function(){
     return gulp.src('./src/sass/*.sass')
     .pipe(gulp.src('./src/sass/*.scss'))
     .pipe(sass({ includePaths : ['./node_modules'], outputStyle : 'compressed'}))
-
     .pipe(rename({ suffix : '.min'}))
     .pipe(gulp.dest('./build/css', {overwrite : true}));
 });

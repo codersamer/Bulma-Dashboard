@@ -1,9 +1,17 @@
-@import "bulma.sass";
 html, body {padding:0; margin:0;}
 html, body, #sidebar, #page,#base_body {
     min-height: 100%;
 }
-.panel-block {padding:1.5rem;}
+.panel {
+    border:1px solid #e6e6e6;
+    .panel-heading {
+        font-size: 1rem;padding:1rem;
+        background-color: transparent;
+        border-bottom:1px solid #e6e6e6;
+    }
+    .panel-block {padding:1.5rem;}
+}
+
 #base_body {margin : 0;}
 #sidebar {
     border-right:1px solid #e6e6e6;
@@ -20,10 +28,14 @@ html, body, #sidebar, #page,#base_body {
         .icon {color: #ccc;}
         a:hover .icon {color :#444;}
         a.is-active .icon {color : #fff;}
+        .menu-list {
+            li > ul {display: none;}
+        }
     }
 }
 #content {
     padding :1.5rem 1.5rem;
+    margin-bottom: 100px;
     .statistic {
         .media-left {margin-right:20px;}
     }
