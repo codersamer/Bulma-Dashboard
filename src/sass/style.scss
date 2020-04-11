@@ -1,8 +1,9 @@
+@import "bulma.sass";
 html, body {padding:0; margin:0;}
 html, body, #sidebar, #page,#base_body {
     min-height: 100%;
-    height: 100%; 
 }
+.panel-block {padding:1.5rem;}
 #base_body {margin : 0;}
 #sidebar {
     border-right:1px solid #e6e6e6;
@@ -25,5 +26,26 @@ html, body, #sidebar, #page,#base_body {
     padding :1.5rem 1.5rem;
     .statistic {
         .media-left {margin-right:20px;}
+    }
+}
+
+.user-media
+{
+    img 
+    {
+        display: block;
+        position: relative;
+        width:48px; height: 48px;
+        border-radius: 50%;
+        float:left;
+    }
+    .info {
+        float:left;
+        height: 48px;
+        padding:0.3rem;
+        margin-left:0.8rem;
+        .title {font-size:1rem;}
+        .subtitle {font-size:0.8rem;}
+        
     }
 }

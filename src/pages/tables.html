@@ -1,0 +1,148 @@
+@@include('header.html')
+@@include('sidebar.html')
+@@include('page-top.html')
+<h3 class="title is-5">Tables</h3>
+<div class="columns">
+    <div class="column">
+        <div class="panel">
+            <div class="panel-heading">Regular Table</div>
+            <div class="panel-block">
+                <table class="table is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Sam ZCoder</td>
+                            <td>coder.sam@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sarah Beachoup</td>
+                            <td>sarah.beachoup@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>John Doe</td>
+                            <td>john.doe@outlook.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="panel">
+            <div class="panel-heading">Striped/Bordered Table</div>
+            <div class="panel-block">
+                <table class="table is-striped is-bordered is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Sam ZCoder</td>
+                            <td>coder.sam@outlook.com</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sarah Beachoup</td>
+                            <td>sarah.beachoup@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>John Doe</td>
+                            <td>john.doe@outlook.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 class="title is-5">Table without Panel</h3>
+<div class="container">
+    <div class="columns">
+        <div class="column">
+            <table class="table is-striped is-bordered is-fullwidth">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div class="user-media">
+                                <img src="./images/user-image.jpg" alt="">
+                                <div class="info">
+                                    <p class="title">Sam ZCoder</p>
+                                    <p class="subtitle">Administrator</p>
+                                </div>
+                            </div>                         
+                        </td>
+                        <td>coder.sam@outlook.com</td>
+                        <td>Administrator</td>
+                    </tr>
+                    <tr class="is-selected">
+                        <td>2</td>
+                        <td>
+                            <div class="user-media">
+                                <img src="./images/user-image.jpg" alt="">
+                                <div class="info">
+                                    <p class="title">Sarah Beachoup</p>
+                                    <p class="subtitle">Moderator</p>
+                                </div>
+                            </div>  
+                        </td>
+                        <td>sarah.beachoup@gmail.com</td>
+                        <td>Moderator</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <div class="user-media">
+                                <img src="./images/user-image.jpg" alt="">
+                                <div class="info">
+                                    <p class="title">John Doe</p>
+                                    <p class="subtitle">Author</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>john.doe@outlook.com</td>
+                        <td>Author</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <div class="user-media">
+                                <img src="./images/user-image.jpg" alt="">
+                                <div class="info">
+                                    <p class="title">John Doe</p>
+                                    <p class="subtitle">User</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>coder.sam@outlook.com</td>
+                        <td>User</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+@@include('footer.html')
