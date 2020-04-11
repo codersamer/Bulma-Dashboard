@@ -6,4 +6,11 @@ html, body, #sidebar, #page,#base_body {
 #base_body {margin : 0;}
 #sidebar {
     border-right:1px solid #e6e6e6;
+    padding:0;
+    > .title { border-bottom : 1px solid #e6e6e6; padding:1rem;}
+    .user {
+        padding:1rem;
+        .media-content {margin:5px 0;}
+    }
+    aside { padding: 1rem;}
 }
