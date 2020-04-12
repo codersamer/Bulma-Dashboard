@@ -21,3 +21,9 @@ html, body, #sidebar, #page,#base_body {
         a.is-active .icon {color : #fff;}
     }
 }
+#content {
+    padding :1.5rem 1.5rem;
+    .statistic {
+        .media-left {margin-right:20px;}
+    }
+}
